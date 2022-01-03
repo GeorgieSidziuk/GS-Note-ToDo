@@ -1,0 +1,29 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgieSidziuk/Note.git"
+  },
+  "keywords": [],
+  "author": "GS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgieSidziuk/Note/issues"
+  },
+  "homepage": "https://github.com/GeorgieSidziuk/Note#readme",
+  "devDependencies": {
+    "cssnano": "^5.0.14",
+    "postcss": "^8.4.5",
+    "sass": "^1.45.2"
+  },
+  "dependencies": {
+    "f": "^1.4.0"
+  },
+  "description": "Tt"
+}

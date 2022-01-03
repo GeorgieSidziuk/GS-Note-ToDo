@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="scss/style.scss">
+    <link rel="shortcut icon" href="./img/icons/accept.png" type="image/x-icon">
+	<title>Note</title>
+</head>
+<body>
+	<!-- HEADER -->
+  <header class="main-screen" id="header">
+    <div class="header-wrap">
+      <h1 class="title">
+        Welcome to Notes!
+      </h1>
+      <h2 class="subtitle">
+        Create. Add. Don't miss.
+      </h2>
+      <button class="get-started button button-primary js-header-start">
+        Start
+      </button>
+      
+    </div>
+  </header>
+  <!-- HEADER -->
+
+
+  <!-- TABS-FIELD -->
+
+  <section class="tabs-screen  ">
+ <div class="container">
+     <ul class="tabs" id="navigation">
+      <li><a class="tab" href="#" data-name="posts">Posts</a></li>
+      <li><a class="tab active" href="#" data-name="create">Create</a></li>
+      <li><a class="tab " href="#" data-name="favorite">Favorite</a></li>
+    </ul>
+
+    <div class="tabs-content">
+      <form action="#" id="create">
+      <h4 class="h4">Create new post</h4>
+
+      <div class="form-control">
+        <label for="#">Title</label>
+        <input type="text" name="title" placeholder="Enter your title">
+      </div>
+
+      <div class="form-control">
+        <label for="#">Text</label>
+        <textarea name="fulltext" placeholder="Enter your text"></textarea>
+      </div>
+
+      <div class="form-control">
+        <label for="#">Choose type of post</label>
+        <select name="type">
+          <option value="note" selected>Note</option>
+          <option value="to-do">To-Do</option>
+          <option value="news">News</option>
+        </select>
+      </div>
+    <div class="btn-box">
+        <button class="button-primary button-round button-shadow" type="submit">
+        Create
+      </button>
+    </div>
+      
+    </form> 
+
+
+    <div id="posts" class="hide active">
+      <div class="panel">
+
+        <div class="panel-head">
+          <h4 class="panel-title">
+            Title name here
+          <h4/>
+          <ul class="tags">
+            <li class="tag tag-blue tag-rounded">
+              News
+            </li>
+          </ul>
+        </div>
+
+        <div class="panel-body">
+          <p class="multi-line">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+
+        <div class="panel-footer ">
+          <span>14.10.21</span>
+        </div>
+      </div>
+   <div class="favorite-box hide" id="favorite" >
+        <button class="btn-favorite">Favorite</button>
+    </div>
+  </div>
+         
+   
+    
+
+    </div>
+
+    
+ </div>
+    </div>
+
+  </section>
+
+  <!-- TABS-FIELD -->
+
+	<script type="module" src="./js/index.js"></script>
+</body>
+</html>

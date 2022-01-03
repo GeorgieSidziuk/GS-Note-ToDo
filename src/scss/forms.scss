@@ -1,0 +1,104 @@
+
+.tabs-content h4 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 18px;
+
+}
+
+ul li a{
+	color: black;
+}
+.form-control {
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-control label {
+	display: block;
+	margin-right: 8px;
+}
+
+.form-control input {
+	display: block;
+	width: 80%;
+	padding: 6px;
+	border: 1px solid #C5C5C5;
+	border-radius: 8px;
+	outline: none;
+}
+
+.form-control textarea {
+	display: block;
+	width: 80%;
+	padding: 6px;
+	border: 1px solid #C5C5C5;
+	border-radius: 8px;
+	outline: none;
+	resize: none;
+}
+
+.form-control select {
+	display: block;
+	width: 20%;
+	text-align: center;
+	margin-left: 6px;
+	padding: 6px;
+	border-radius: 8px;
+	border: 1px solid #C5C5C5;
+	outline: none;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+.form-control select:hover {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	color: crimson;
+
+}
+
+.form-control select:active {
+
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+		rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+
+.btn-box button {
+
+	width: 60%;
+	padding: 8px 26px;
+	border: 1px solid #C5C5C5;
+	background-color: whitesmoke;
+	border-radius: 18px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: all 0.4s ease;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+
+.btn-box {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-box button:hover {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	color: crimson;
+}
+
+.btn-box button:active {
+
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+		rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

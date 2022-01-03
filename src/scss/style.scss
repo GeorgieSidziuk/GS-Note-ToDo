@@ -1,0 +1,38 @@
+@import url(./imports.scss);
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Montserrat";
+	background-image: url('../img/bg/walling-XLqiL-rz4V8-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 1;
+	
+
+}
+
+section {
+	padding: 100px 0;
+
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+// .hide{
+// 	display: none;
+// }
+
+

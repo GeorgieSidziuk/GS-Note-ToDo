@@ -1,0 +1,96 @@
+.main-screen {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+
+.main-screen::after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.90);
+
+}
+
+.header-wrap {
+	width: 500px;
+	padding: 20px;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 2;
+	animation: bounce 4s ease-in-out infinite;
+	animation-delay: 2s;
+	transition: all 1s ease;
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+		rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    font-family: 600;
+}
+
+.header-wrap:hover {
+	animation: none;
+}
+
+@keyframes bounce {
+
+	0%,
+	10%,
+	20%,
+	30%,
+	100% {
+		transform: translateY(0);
+	}
+
+	5%,
+	15%,
+	25% {
+		transform: translateY(-20px);
+	}
+}
+
+.header-wrap h1 {
+	margin-bottom: 20px;
+}
+
+.header-wrap h2 {
+	margin-bottom: 20px;
+}
+
+.header-wrap button {
+	width: 240px;
+	padding: 18px 32px;
+	border: 1px solid #C5C5C5;
+	background-color: white;
+	border-radius: 18px;
+	font-size: 18px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	cursor: pointer;
+
+}
+
+.header-wrap button:hover {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	color: crimson;
+}
+
+.header-wrap button:active {
+
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+		rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
