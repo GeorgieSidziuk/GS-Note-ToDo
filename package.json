@@ -1,7 +1,6 @@
 {
   "name": "note",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -18,12 +17,13 @@
   },
   "homepage": "https://github.com/GeorgieSidziuk/Note#readme",
   "devDependencies": {
-    "cssnano": "^5.0.14",
-    "postcss": "^8.4.5",
-    "sass": "^1.45.2"
+    "@parcel/transformer-sass": "^2.1.1",
+    "parcel": "^2.1.1",
+    "sass": "^1.45.2",
+    "scss": "^0.2.4"
   },
   "dependencies": {
-    "f": "^1.4.0"
-  },
-  "description": "Tt"
+    "@swc/helpers": "^0.3.2",
+    "regenerator-runtime": "^0.13.9"
+  }
 }

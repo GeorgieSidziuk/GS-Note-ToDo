@@ -1,19 +1,14 @@
-import '../scss/style.scss';
+
 
 import { HeaderComponent } from "../components/header.components";
-import { NavigationComponent } from "../components/navigation.components";
-import { CreateComponent } from "../components/create.components";
-import { FavoriteComponent } from "../components/favorite.components";
-import { PostsComponent } from "../components/posts.components";
+// import { NavigationComponent } from "../components/navigation.components";
 
 new HeaderComponent("#header");
-const navigation = new NavigationComponent("#navigation");
-const create = new CreateComponent("#create");
-const favorite = new FavoriteComponent("#favorite");
-const posts = new PostsComponent("#posts");
+// const navigation = new NavigationComponent("#navigation");
 
-navigation.registerTabs([
-  { name: "create", component: create },
-  { name: "posts", component: posts },
-  { name: "favorite", component: favorite },
-]);
+
+// navigation.registerTabs([
+//   { name: "create", component: create },
+//   { name: "posts", component: posts },
+//   { name: "favorite", component: favorite },
+// ]);
